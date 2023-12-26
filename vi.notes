@@ -1,0 +1,21 @@
+12-17-2023 KenUnix Old School
+
+In vi under Unix use the following most common keys:
+
+a  = Ad text
+dd = Delete current line. Example to delete 3 lines you would enter 3dd
+i  = Insert text at cursor position
+j  = Join lines at the cursor
+p  = paste yanked lines at current line position
+q  = Quit vi
+q! = Quit vi without saving
+r  = Read file , append
+s  = Substitute text. Example :s/old/new/ for current line
+       or :s 1,$ /old/new/ for entire file
+u  = Undo the lest operation
+w  = Write file
+x  = Erase character under cursor
+yy = Yank line
+:  = Issue command. Example :w to write file
+esc= Go to command mode
+
