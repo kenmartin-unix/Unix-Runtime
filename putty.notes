@@ -1,0 +1,16 @@
+12-17-2023 KenUnix
+
+If putty is not installed under Arch do: sudo pacman -S putty
+
+Under most other Linux's do: sudo apt-get install putty
+
+File putty.defs contains the setup for running putty under Linux port 2323.
+
+Put putty.defs into ~/.putty/sessions/telnet2323
+This will give you a pre-configured vt-100 setup with 20 points font.
+
+Then when firing up putty load telnet2323. Then click open
+after a few seconds you should get a Unix login screen.
+
+When done right click on the window and click close.
+
